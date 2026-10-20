@@ -163,7 +163,7 @@ favorite_colors = ["blue", "red", "blue", "green", "pizza", "blue", "red", "yell
 
 
 #--------------------------------------------------------------#
-# BONUS: rainbow
+# EXTENSION: rainbow
 #--------------------------------------------------------------#
 
 """
@@ -175,8 +175,6 @@ character in a different color, cycling through this list in order:
 Only add one reset code, at the very end.
 
 ex. rainbow("hi") should return "\033[31mh\033[33mi\033[0m"
-
-Hint: the % operator helps you cycle back to the start of the list.
 """
 
 def rainbow(text):
